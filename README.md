@@ -70,7 +70,7 @@ Secret scanning alerts can only be queried with the API in private repositories.
 #### Other optional features for this Action
 
 ##### Labels
-You can also create labels for the Jira issues that are created. By using the example yaml below in your workflow, you can use multiple labels, and spaces will be respected. For example, if you add `red-team, blue team`, the labels would be created 'red-team' and 'blue team'. If this input is updated in the workflow, the existing JIRE issues will also be updated with the same labels.
+You can also create labels for the Jira issues that are created. By using the example yaml below in your workflow, you can use multiple labels, and spaces will be respected. For example, if you add `red-team, blue team`, the labels would be created 'red-team' and 'blue team'. If this input is updated in the workflow, the existing Jira issues will also be updated with the same labels.
 
 ```yaml
 with:
